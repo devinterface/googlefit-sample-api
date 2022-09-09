@@ -1,0 +1,186 @@
+[
+    {
+        "startTimeMillis": "1662076800000",
+        "endTimeMillis": "1662163200000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1662097659846995712",
+                        "endTimeNanos": "1662151788015977216",
+                        "dataTypeName": "com.google.step_count.delta",
+                        "originDataSourceId": "derived:com.google.step_count.delta:com.google.ios.fit:appleinc.:watch:1d0aed85:top_level",
+                        "value": [
+                            {
+                                "intVal": 12931,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1662163200000",
+        "endTimeMillis": "1662249600000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1662183486011447552",
+                        "endTimeNanos": "1662242819356947200",
+                        "dataTypeName": "com.google.step_count.delta",
+                        "originDataSourceId": "derived:com.google.step_count.delta:com.google.ios.fit:appleinc.:watch:1d0aed85:top_level",
+                        "value": [
+                            {
+                                "intVal": 13443,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1662249600000",
+        "endTimeMillis": "1662336000000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1662273029769022208",
+                        "endTimeNanos": "1662327079043991296",
+                        "dataTypeName": "com.google.step_count.delta",
+                        "originDataSourceId": "derived:com.google.step_count.delta:com.google.ios.fit:appleinc.:watch:1d0aed85:top_level",
+                        "value": [
+                            {
+                                "intVal": 9533,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1662336000000",
+        "endTimeMillis": "1662422400000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1662351692523470080",
+                        "endTimeNanos": "1662409421427461632",
+                        "dataTypeName": "com.google.step_count.delta",
+                        "originDataSourceId": "derived:com.google.step_count.delta:com.google.ios.fit:appleinc.:watch:1d0aed85:top_level",
+                        "value": [
+                            {
+                                "intVal": 12621,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1662422400000",
+        "endTimeMillis": "1662508800000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1662438992461818368",
+                        "endTimeNanos": "1662496951997300224",
+                        "dataTypeName": "com.google.step_count.delta",
+                        "originDataSourceId": "derived:com.google.step_count.delta:com.google.ios.fit:appleinc.:watch:1d0aed85:top_level",
+                        "value": [
+                            {
+                                "intVal": 9469,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1662508800000",
+        "endTimeMillis": "1662595200000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1662525339098220288",
+                        "endTimeNanos": "1662580864983153408",
+                        "dataTypeName": "com.google.step_count.delta",
+                        "originDataSourceId": "derived:com.google.step_count.delta:com.google.ios.fit:appleinc.:watch:1d0aed85:top_level",
+                        "value": [
+                            {
+                                "intVal": 4955,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1662595200000",
+        "endTimeMillis": "1662681600000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1662611286456461824",
+                        "endTimeNanos": "1662671985446768384",
+                        "dataTypeName": "com.google.step_count.delta",
+                        "originDataSourceId": "derived:com.google.step_count.delta:com.google.ios.fit:appleinc.:watch:1d0aed85:top_level",
+                        "value": [
+                            {
+                                "intVal": 10070,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1662681600000",
+        "endTimeMillis": "1662714404259",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1662697214322213632",
+                        "endTimeNanos": "1662712961716391680",
+                        "dataTypeName": "com.google.step_count.delta",
+                        "originDataSourceId": "derived:com.google.step_count.delta:com.google.ios.fit:appleinc.:watch:1d0aed85:top_level",
+                        "value": [
+                            {
+                                "intVal": 1870,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
