@@ -1,0 +1,168 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2022-10-10T13:01:10.027Z",
+    "__export_source": "insomnia.desktop.app:v2022.6.0",
+    "resources": [
+        {
+            "_id": "req_74ccbb97c12549c7bc2fe7035b379b63",
+            "parentId": "wrk_f4514da9c61c4d4f88a0e8ff07d17cbe",
+            "modified": 1665405885315,
+            "created": 1647424326135,
+            "url": "http://localhost:1234/gfit-auth",
+            "name": "Login",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": ""
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_0ab1980ea76648c1a459979d4776b5cd"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1665404418053,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_f4514da9c61c4d4f88a0e8ff07d17cbe",
+            "parentId": null,
+            "modified": 1647424326124,
+            "created": 1647424326124,
+            "name": "New Document",
+            "description": "",
+            "scope": "design",
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_1ea7409a61af4522824107c5e082bd24",
+            "parentId": "wrk_f4514da9c61c4d4f88a0e8ff07d17cbe",
+            "modified": 1665405903219,
+            "created": 1665405899524,
+            "url": "http://localhost:1234/sources",
+            "name": "Sources",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {
+                "type": "bearer",
+                "token": "xyz"
+            },
+            "metaSortKey": -1665404418028,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_3f480d9ef02848ca9b27e0c0891806e6",
+            "parentId": "wrk_f4514da9c61c4d4f88a0e8ff07d17cbe",
+            "modified": 1665405892184,
+            "created": 1665404418003,
+            "url": "http://localhost:1234/steps",
+            "name": "Steps",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {
+                "type": "bearer",
+                "token": "xyz"
+            },
+            "metaSortKey": -1665404418003,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_2d5697b4ad914c118a239990fcc58b0a",
+            "parentId": "wrk_f4514da9c61c4d4f88a0e8ff07d17cbe",
+            "modified": 1665406339017,
+            "created": 1665405915176,
+            "url": "http://localhost:1234/calories",
+            "name": "Calories",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {
+                "type": "bearer",
+                "token": "xyz"
+            },
+            "metaSortKey": -1664228828234.5,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_6228a3e7a75a08c76989daade7009ba9ec733821",
+            "parentId": "wrk_f4514da9c61c4d4f88a0e8ff07d17cbe",
+            "modified": 1647424326132,
+            "created": 1647424326132,
+            "name": "Base Environment",
+            "data": {},
+            "dataPropertyOrder": null,
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1647424326132,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_6228a3e7a75a08c76989daade7009ba9ec733821",
+            "parentId": "wrk_f4514da9c61c4d4f88a0e8ff07d17cbe",
+            "modified": 1647424326134,
+            "created": 1647424326134,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "spc_ce3e6be82e98498d900859742bc3c5b9",
+            "parentId": "wrk_f4514da9c61c4d4f88a0e8ff07d17cbe",
+            "modified": 1665404384273,
+            "created": 1647424326130,
+            "fileName": "GFIT API",
+            "contents": "",
+            "contentType": "yaml",
+            "_type": "api_spec"
+        },
+        {
+            "_id": "uts_905489151ba847fe99973c7a5491bba7",
+            "parentId": "wrk_f4514da9c61c4d4f88a0e8ff07d17cbe",
+            "modified": 1647424326136,
+            "created": 1647424326136,
+            "name": "Example Test Suite",
+            "_type": "unit_test_suite"
+        }
+    ]
+}

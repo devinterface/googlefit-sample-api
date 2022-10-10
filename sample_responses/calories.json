@@ -1,0 +1,186 @@
+[
+    {
+        "startTimeMillis": "1664748000000",
+        "endTimeMillis": "1664834400000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1664748000000000000",
+                        "endTimeNanos": "1664834400000000000",
+                        "dataTypeName": "com.google.calories.expended",
+                        "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                        "value": [
+                            {
+                                "fpVal": 1830.8929702362395,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1664834400000",
+        "endTimeMillis": "1664920800000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1664834400000000000",
+                        "endTimeNanos": "1664920800000000000",
+                        "dataTypeName": "com.google.calories.expended",
+                        "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                        "value": [
+                            {
+                                "fpVal": 1851.6840225484189,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1664920800000",
+        "endTimeMillis": "1665007200000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1664920800000000000",
+                        "endTimeNanos": "1665007200000000000",
+                        "dataTypeName": "com.google.calories.expended",
+                        "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                        "value": [
+                            {
+                                "fpVal": 1690.0109376639039,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1665007200000",
+        "endTimeMillis": "1665093600000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1665007200000000000",
+                        "endTimeNanos": "1665093600000000000",
+                        "dataTypeName": "com.google.calories.expended",
+                        "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                        "value": [
+                            {
+                                "fpVal": 1962.1734177015708,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1665093600000",
+        "endTimeMillis": "1665180000000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1665093600000000000",
+                        "endTimeNanos": "1665180000000000000",
+                        "dataTypeName": "com.google.calories.expended",
+                        "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                        "value": [
+                            {
+                                "fpVal": 2166.7531586797827,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1665180000000",
+        "endTimeMillis": "1665266400000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1665180000000000000",
+                        "endTimeNanos": "1665266400000000000",
+                        "dataTypeName": "com.google.calories.expended",
+                        "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                        "value": [
+                            {
+                                "fpVal": 2390.9973990830686,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1665266400000",
+        "endTimeMillis": "1665352800000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1665266400000000000",
+                        "endTimeNanos": "1665352800000000000",
+                        "dataTypeName": "com.google.calories.expended",
+                        "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                        "value": [
+                            {
+                                "fpVal": 1848.65351011633,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1665352800000",
+        "endTimeMillis": "1665407183435",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1665352800000000000",
+                        "endTimeNanos": "1665404875145132032",
+                        "dataTypeName": "com.google.calories.expended",
+                        "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                        "value": [
+                            {
+                                "fpVal": 1007.7504757962644,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -59,6 +59,26 @@ app.get("/gfit-callback", async (req, res) => {
   res.send({ token: token });
 });
 
+app.get("/sources", async (req, res) => {
+  const authHeader = req.headers.authorization;
+  const token = authHeader.split(" ")[1];
+
+  try {
+    const result = await axios({
+      method: "GET",
+      headers: {
+        authorization: "Bearer " + token,
+      },
+      "Content-Type": "application/json",
+      url: `https://www.googleapis.com/fitness/v1/users/me/dataSources`,
+    });
+    res.send({ raw: result.data });
+  } catch (error) {
+    console.log("error: ", error);
+    res.send({});
+  }
+});
+
 app.get("/steps", async (req, res) => {
   const authHeader = req.headers.authorization;
   const token = authHeader.split(" ")[1];
@@ -93,6 +113,48 @@ app.get("/steps", async (req, res) => {
       const day = dt.format("DD/MM/YYYY");
       const dailySteps = step.dataset[0].point[0].value[0].intVal;
       output[day] = dailySteps;
+    }
+    res.send({ parsed: output, raw: result.data });
+  } catch (error) {
+    console.log("error: ", error);
+    res.send({});
+  }
+});
+
+app.get("/calories", async (req, res) => {
+  const authHeader = req.headers.authorization;
+  const token = authHeader.split(" ")[1];
+
+  try {
+    let sevenDaysAgo = moment().subtract(7, "d").startOf("day").toDate();
+    let now = new Date();
+    const result = await axios({
+      method: "POST",
+      headers: {
+        authorization: "Bearer " + token,
+      },
+      "Content-Type": "application/json",
+      url: `https://www.googleapis.com/fitness/v1/users/me/dataset:aggregate`,
+      data: {
+        aggregateBy: [
+          {
+            dataTypeName: "com.google.calories.expended",
+            dataSourceId:
+              "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+          },
+        ],
+        bucketByTime: { durationMillis: 86400000 },
+        startTimeMillis: sevenDaysAgo.getTime(),
+        endTimeMillis: now.getTime(),
+      },
+    });
+    let caloriesArray = result.data.bucket;
+    let output = {};
+    for (const calory of caloriesArray) {
+      const dt = moment(Number(calory.startTimeMillis));
+      const day = dt.format("DD/MM/YYYY");
+      const dailyCalories = calory.dataset[0].point[0].value[0].fpVal;
+      output[day] = dailyCalories;
     }
     res.send({ parsed: output, raw: result.data });
   } catch (error) {

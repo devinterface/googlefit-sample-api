@@ -33,4 +33,4 @@ curl --request POST \
 
 5- store the value of `token` value
 
-6- perform a GET request `http://localhost:1234/steps?code=<token>`
+6- perform the requests from Insomnia client, by using the token as Bearer`
