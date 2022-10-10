@@ -60,8 +60,8 @@ app.get("/gfit-callback", async (req, res) => {
 });
 
 app.get("/steps", async (req, res) => {
-  const queryURL = new urlParse(req.url);
-  const token = queryParse.parse(queryURL.query).code;
+  const authHeader = req.headers.authorization;
+  const token = authHeader.split(" ")[1];
 
   try {
     let sevenDaysAgo = moment().subtract(7, "d").startOf("day").toDate();
@@ -94,7 +94,7 @@ app.get("/steps", async (req, res) => {
       const dailySteps = step.dataset[0].point[0].value[0].intVal;
       output[day] = dailySteps;
     }
-    res.send(output);
+    res.send({ parsed: output, raw: result.data });
   } catch (error) {
     console.log("error: ", error);
     res.send({});
