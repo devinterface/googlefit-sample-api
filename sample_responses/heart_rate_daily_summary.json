@@ -1,0 +1,343 @@
+[
+    {
+        "startTimeMillis": "1664748000000",
+        "endTimeMillis": "1664834400000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1664770976197866496",
+                        "endTimeNanos": "1664828629079548928",
+                        "dataTypeName": "com.google.heart_rate.summary",
+                        "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.ios.fit:appleinc.:watch:1d0aed85:top_level",
+                        "value": [
+                            {
+                                "fpVal": 65.47248481718646,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 137,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 47,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1664834400000",
+        "endTimeMillis": "1664920800000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1664858126725752320",
+                        "endTimeNanos": "1664915280482130432",
+                        "dataTypeName": "com.google.heart_rate.summary",
+                        "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.ios.fit:appleinc.:watch:1d0aed85:top_level",
+                        "value": [
+                            {
+                                "fpVal": 70.54920446966477,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 145,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 46,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1664920800000",
+        "endTimeMillis": "1665007200000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1664944673649582848",
+                        "endTimeNanos": "1665002489031661568",
+                        "dataTypeName": "com.google.heart_rate.summary",
+                        "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.ios.fit:appleinc.:watch:1d0aed85:top_level",
+                        "value": [
+                            {
+                                "fpVal": 64.79133785810846,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 102,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 47,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1665007200000",
+        "endTimeMillis": "1665093600000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1665030776668316160",
+                        "endTimeNanos": "1665087780432237824",
+                        "dataTypeName": "com.google.heart_rate.summary",
+                        "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.ios.fit:appleinc.:watch:1d0aed85:top_level",
+                        "value": [
+                            {
+                                "fpVal": 64.29459183089207,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 132,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 48,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1665093600000",
+        "endTimeMillis": "1665180000000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1665117175852064000",
+                        "endTimeNanos": "1665178079481345792",
+                        "dataTypeName": "com.google.heart_rate.summary",
+                        "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.ios.fit:appleinc.:watch:1d0aed85:top_level",
+                        "value": [
+                            {
+                                "fpVal": 64.11564872118518,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 113,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 48,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1665180000000",
+        "endTimeMillis": "1665266400000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1665207717796933120",
+                        "endTimeNanos": "1665266070683616512",
+                        "dataTypeName": "com.google.heart_rate.summary",
+                        "originDataSourceId": "raw:com.google.heart_rate.bpm:Fossil:Fossil Gen 6:d1593ff9:lifeq_lel_heart_rate  Wakeup",
+                        "value": [
+                            {
+                                "fpVal": 70.77078916517056,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 152,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 45.91132354736328,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1665266400000",
+        "endTimeMillis": "1665352800000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1665299342750541312",
+                        "endTimeNanos": "1665349758979333120",
+                        "dataTypeName": "com.google.heart_rate.summary",
+                        "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.ios.fit:appleinc.:watch:1d0aed85:top_level",
+                        "value": [
+                            {
+                                "fpVal": 62.02611176424511,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 101,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 46,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1665352800000",
+        "endTimeMillis": "1665439200000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1665376477497454592",
+                        "endTimeNanos": "1665433951369267456",
+                        "dataTypeName": "com.google.heart_rate.summary",
+                        "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.ios.fit:appleinc.:watch:1d0aed85:top_level",
+                        "value": [
+                            {
+                                "fpVal": 58.565033056188895,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 175,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 42,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1665439200000",
+        "endTimeMillis": "1665525600000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1665462683265628672",
+                        "endTimeNanos": "1665525537349314816",
+                        "dataTypeName": "com.google.heart_rate.summary",
+                        "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.ios.fit:appleinc.:watch:1d0aed85:top_level",
+                        "value": [
+                            {
+                                "fpVal": 67.92789575939116,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 137,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 46.95704650878906,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1665525600000",
+        "endTimeMillis": "1665612000000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1665525779349832960",
+                        "endTimeNanos": "1665606508245983232",
+                        "dataTypeName": "com.google.heart_rate.summary",
+                        "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.ios.fit:appleinc.:watch:1d0aed85:top_level",
+                        "value": [
+                            {
+                                "fpVal": 56.930685944321226,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 86,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 42,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1665612000000",
+        "endTimeMillis": "1665666879414",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1665634620763753984",
+                        "endTimeNanos": "1665634685763753984",
+                        "dataTypeName": "com.google.heart_rate.summary",
+                        "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.ios.fit:appleinc.:watch:1d0aed85:top_level",
+                        "value": [
+                            {
+                                "fpVal": 55.5,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 57,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 54,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

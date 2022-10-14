@@ -1,0 +1,55 @@
+[
+    {
+        "dataSourceId": "derived:com.google.heart_rate.bpm:com.google.android.gms:merge_heart_rate_bpm",
+        "point": [
+            {
+                "startTimeNanos": "1665525779349832960",
+                "endTimeNanos": "1665525779349832960",
+                "dataTypeName": "com.google.heart_rate.bpm",
+                "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.ios.fit:appleinc.:watch:1d0aed85:top_level",
+                "value": [
+                    {
+                        "fpVal": 64,
+                        "mapVal": []
+                    }
+                ]
+            },
+            {
+                "startTimeNanos": "1665526270350175488",
+                "endTimeNanos": "1665526270350175488",
+                "dataTypeName": "com.google.heart_rate.bpm",
+                "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.ios.fit:appleinc.:watch:1d0aed85:top_level",
+                "value": [
+                    {
+                        "fpVal": 59,
+                        "mapVal": []
+                    }
+                ]
+            },
+            {
+                "startTimeNanos": "1665526382350175488",
+                "endTimeNanos": "1665526382350175488",
+                "dataTypeName": "com.google.heart_rate.bpm",
+                "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.ios.fit:appleinc.:watch:1d0aed85:top_level",
+                "value": [
+                    {
+                        "fpVal": 55,
+                        "mapVal": []
+                    }
+                ]
+            },
+            {
+                "startTimeNanos": "1665526844350840064",
+                "endTimeNanos": "1665526844350840064",
+                "dataTypeName": "com.google.heart_rate.bpm",
+                "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.ios.fit:appleinc.:watch:1d0aed85:top_level",
+                "value": [
+                    {
+                        "fpVal": 55,
+                        "mapVal": []
+                    }
+                ]
+            }
+        ]
+    }
+]

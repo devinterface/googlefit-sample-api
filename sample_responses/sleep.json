@@ -1,0 +1,85 @@
+[
+    {
+        "startTimeMillis": "1663797600000",
+        "endTimeMillis": "1665581416679",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.sleep.segment:com.google.android.gms:merged",
+                "point": [
+                    {
+                        "startTimeNanos": "1664630045000000000",
+                        "endTimeNanos": "1664630585000000000",
+                        "dataTypeName": "com.google.sleep.segment",
+                        "originDataSourceId": "raw:com.google.sleep.segment:com.fossil.wearables.healthtracker:health_tracker_sleep",
+                        "value": [
+                            {
+                                "intVal": 4,
+                                "mapVal": []
+                            }
+                        ]
+                    },
+                    {
+                        "startTimeNanos": "1664630585000000000",
+                        "endTimeNanos": "1664635325000000000",
+                        "dataTypeName": "com.google.sleep.segment",
+                        "originDataSourceId": "raw:com.google.sleep.segment:com.fossil.wearables.healthtracker:health_tracker_sleep",
+                        "value": [
+                            {
+                                "intVal": 5,
+                                "mapVal": []
+                            }
+                        ]
+                    },
+                    {
+                        "startTimeNanos": "1664635325000000000",
+                        "endTimeNanos": "1664635745000000000",
+                        "dataTypeName": "com.google.sleep.segment",
+                        "originDataSourceId": "raw:com.google.sleep.segment:com.fossil.wearables.healthtracker:health_tracker_sleep",
+                        "value": [
+                            {
+                                "intVal": 4,
+                                "mapVal": []
+                            }
+                        ]
+                    },
+                    {
+                        "startTimeNanos": "1664635745000000000",
+                        "endTimeNanos": "1664638145000000000",
+                        "dataTypeName": "com.google.sleep.segment",
+                        "originDataSourceId": "raw:com.google.sleep.segment:com.fossil.wearables.healthtracker:health_tracker_sleep",
+                        "value": [
+                            {
+                                "intVal": 5,
+                                "mapVal": []
+                            }
+                        ]
+                    },
+                    {
+                        "startTimeNanos": "1664638145000000000",
+                        "endTimeNanos": "1664638625000000000",
+                        "dataTypeName": "com.google.sleep.segment",
+                        "originDataSourceId": "raw:com.google.sleep.segment:com.fossil.wearables.healthtracker:health_tracker_sleep",
+                        "value": [
+                            {
+                                "intVal": 4,
+                                "mapVal": []
+                            }
+                        ]
+                    },
+                    {
+                        "startTimeNanos": "1665435600000000000",
+                        "endTimeNanos": "1665462600000000000",
+                        "dataTypeName": "com.google.sleep.segment",
+                        "originDataSourceId": "raw:com.google.sleep.segment:com.google.android.apps.fitness:user_input",
+                        "value": [
+                            {
+                                "intVal": 2,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
