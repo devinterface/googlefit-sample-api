@@ -220,6 +220,40 @@ app.get("/heart-rates-daily-summary", async (req, res) => {
   }
 });
 
+app.get("/heart-rates-resting", async (req, res) => {
+  const authHeader = req.headers.authorization;
+  const token = authHeader.split(" ")[1];
+
+  try {
+    let daysAgo = moment().subtract(10, "d").startOf("day").toDate();
+    let now = new Date();
+    const result = await axios({
+      method: "POST",
+      headers: {
+        authorization: "Bearer " + token,
+      },
+      "Content-Type": "application/json",
+      url: `https://www.googleapis.com/fitness/v1/users/me/dataset:aggregate`,
+      data: {
+        aggregateBy: [
+          {
+            dataTypeName: "com.google.heart_rate.bpm",
+            dataSourceId:
+              "derived:com.google.heart_rate.bpm:com.google.android.gms:resting_heart_rate<-merge_heart_rate_bpm",
+          },
+        ],
+        bucketByTime: { durationMillis: 86400000 },
+        startTimeMillis: daysAgo.getTime(),
+        endTimeMillis: now.getTime(),
+      },
+    });
+    res.send({ raw: result.data });
+  } catch (error) {
+    console.log("error: ", error);
+    res.send({});
+  }
+});
+
 app.get("/sleep", async (req, res) => {
   const authHeader = req.headers.authorization;
   const token = authHeader.split(" ")[1];

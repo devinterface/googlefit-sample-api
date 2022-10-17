@@ -1,0 +1,343 @@
+[
+    {
+        "startTimeMillis": "1665093600000",
+        "endTimeMillis": "1665180000000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1665093600000000000",
+                        "endTimeNanos": "1665176400000000000",
+                        "dataTypeName": "com.google.heart_rate.summary",
+                        "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.android.gms:resting_heart_rate<-merge_heart_rate_bpm",
+                        "value": [
+                            {
+                                "fpVal": 52.130434782608695,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 54,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 52,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1665180000000",
+        "endTimeMillis": "1665266400000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1665180000000000000",
+                        "endTimeNanos": "1665262800000000000",
+                        "dataTypeName": "com.google.heart_rate.summary",
+                        "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.android.gms:resting_heart_rate<-merge_heart_rate_bpm",
+                        "value": [
+                            {
+                                "fpVal": 53.54347826086956,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 60,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 50,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1665266400000",
+        "endTimeMillis": "1665352800000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1665266400000000000",
+                        "endTimeNanos": "1665349200000000000",
+                        "dataTypeName": "com.google.heart_rate.summary",
+                        "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.android.gms:resting_heart_rate<-merge_heart_rate_bpm",
+                        "value": [
+                            {
+                                "fpVal": 58.30722526882006,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 60,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 52.132362365722656,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1665352800000",
+        "endTimeMillis": "1665439200000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1665352800000000000",
+                        "endTimeNanos": "1665435600000000000",
+                        "dataTypeName": "com.google.heart_rate.summary",
+                        "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.android.gms:resting_heart_rate<-merge_heart_rate_bpm",
+                        "value": [
+                            {
+                                "fpVal": 51.20301702748174,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 54,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 46.16939163208008,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1665439200000",
+        "endTimeMillis": "1665525600000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1665439200000000000",
+                        "endTimeNanos": "1665522000000000000",
+                        "dataTypeName": "com.google.heart_rate.summary",
+                        "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.android.gms:resting_heart_rate<-merge_heart_rate_bpm",
+                        "value": [
+                            {
+                                "fpVal": 47.71739130434783,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 52,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 47,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1665525600000",
+        "endTimeMillis": "1665612000000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1665525600000000000",
+                        "endTimeNanos": "1665604800000000000",
+                        "dataTypeName": "com.google.heart_rate.summary",
+                        "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.android.gms:resting_heart_rate<-merge_heart_rate_bpm",
+                        "value": [
+                            {
+                                "fpVal": 48.38636363636363,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 52,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 47,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1665612000000",
+        "endTimeMillis": "1665698400000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1665637200000000000",
+                        "endTimeNanos": "1665691200000000000",
+                        "dataTypeName": "com.google.heart_rate.summary",
+                        "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.android.gms:resting_heart_rate<-merge_heart_rate_bpm",
+                        "value": [
+                            {
+                                "fpVal": 47.3,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 52,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 47,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1665698400000",
+        "endTimeMillis": "1665784800000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1665698400000000000",
+                        "endTimeNanos": "1665781200000000000",
+                        "dataTypeName": "com.google.heart_rate.summary",
+                        "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.android.gms:resting_heart_rate<-merge_heart_rate_bpm",
+                        "value": [
+                            {
+                                "fpVal": 54.5,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 57,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 52,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1665784800000",
+        "endTimeMillis": "1665871200000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1665784800000000000",
+                        "endTimeNanos": "1665867600000000000",
+                        "dataTypeName": "com.google.heart_rate.summary",
+                        "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.android.gms:resting_heart_rate<-merge_heart_rate_bpm",
+                        "value": [
+                            {
+                                "fpVal": 54.391304347826086,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 57,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 51,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1665871200000",
+        "endTimeMillis": "1665957600000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1665871200000000000",
+                        "endTimeNanos": "1665954000000000000",
+                        "dataTypeName": "com.google.heart_rate.summary",
+                        "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.android.gms:resting_heart_rate<-merge_heart_rate_bpm",
+                        "value": [
+                            {
+                                "fpVal": 50.50692019255264,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 52,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 50,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1665957600000",
+        "endTimeMillis": "1666016406405",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1665957600000000000",
+                        "endTimeNanos": "1666011600000000000",
+                        "dataTypeName": "com.google.heart_rate.summary",
+                        "originDataSourceId": "derived:com.google.heart_rate.bpm:com.google.android.gms:resting_heart_rate<-merge_heart_rate_bpm",
+                        "value": [
+                            {
+                                "fpVal": 53,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 53,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 53,
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
