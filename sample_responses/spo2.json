@@ -1,0 +1,64 @@
+[
+    {
+        "startTimeMillis": "1666476000000",
+        "endTimeMillis": "1666562400000",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.oxygen_saturation.summary:com.google.android.gms:aggregated",
+                "point": []
+            }
+        ]
+    },
+    {
+        "startTimeMillis": "1666562400000",
+        "endTimeMillis": "1666603046388",
+        "dataset": [
+            {
+                "dataSourceId": "derived:com.google.oxygen_saturation.summary:com.google.android.gms:aggregated",
+                "point": [
+                    {
+                        "startTimeNanos": "1666602720000000000",
+                        "endTimeNanos": "1666602720000000000",
+                        "dataTypeName": "com.google.oxygen_saturation.summary",
+                        "originDataSourceId": "raw:com.google.oxygen_saturation:com.google.android.apps.fitness:user_input",
+                        "value": [
+                            {
+                                "fpVal": 98,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 98,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 98,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 0,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 0,
+                                "mapVal": []
+                            },
+                            {
+                                "fpVal": 0,
+                                "mapVal": []
+                            },
+                            {
+                                "mapVal": []
+                            },
+                            {
+                                "mapVal": []
+                            },
+                            {
+                                "mapVal": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

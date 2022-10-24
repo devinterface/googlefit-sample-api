@@ -32,6 +32,7 @@ app.post("/gfit-auth", (req, res) => {
     "https://www.googleapis.com/auth/fitness.sleep.read",
     "https://www.googleapis.com/auth/fitness.heart_rate.read",
     "https://www.googleapis.com/auth/fitness.body.read",
+    "https://www.googleapis.com/auth/fitness.oxygen_saturation.read",
     "profile",
     "email",
     "openid",
@@ -107,7 +108,7 @@ app.get("/steps", async (req, res) => {
               "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
           },
         ],
-        bucketByTime: { durationMillis: 86400000 },
+        bucketByTime: { durationMillis: 60 * 60 * 1000 },
         startTimeMillis: daysAgo.getTime(),
         endTimeMillis: now.getTime(),
       },
@@ -141,7 +142,7 @@ app.get("/calories", async (req, res) => {
               "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
           },
         ],
-        bucketByTime: { durationMillis: 86400000 },
+        bucketByTime: { durationMillis: 60 * 60 * 1000 },
         startTimeMillis: daysAgo.getTime(),
         endTimeMillis: now.getTime(),
       },
@@ -287,5 +288,73 @@ app.get("/sleep", async (req, res) => {
     res.send({});
   }
 });
+
+app.get("/spo2", async (req, res) => {
+  const authHeader = req.headers.authorization;
+  const token = authHeader.split(" ")[1];
+
+  try {
+    let daysAgo = moment().subtract(1, "d").startOf("day").toDate();
+    let now = new Date();
+    const result = await axios({
+      method: "POST",
+      headers: {
+        authorization: "Bearer " + token,
+      },
+      "Content-Type": "application/json",
+      url: `https://www.googleapis.com/fitness/v1/users/me/dataset:aggregate`,
+      data: {
+        aggregateBy: [
+          {
+            dataTypeName: "com.google.oxygen_saturation",
+            dataSourceId:
+              "derived:com.google.oxygen_saturation:com.google.android.gms:merged",
+          },
+        ],
+        bucketByTime: { durationMillis: 60 * 60 * 1000 * 24 },
+        startTimeMillis: daysAgo.getTime(),
+        endTimeMillis: now.getTime(),
+      },
+    });
+    res.send({ raw: result.data });
+  } catch (error) {
+    console.log("error: ", error);
+    res.send({});
+  }
+});
+
+// app.get("/activities", async (req, res) => {
+//   const authHeader = req.headers.authorization;
+//   const token = authHeader.split(" ")[1];
+
+//   try {
+//     let daysAgo = moment().subtract(1, "d").startOf("day").toDate();
+//     let now = new Date();
+//     const result = await axios({
+//       method: "POST",
+//       headers: {
+//         authorization: "Bearer " + token,
+//       },
+//       "Content-Type": "application/json",
+//       url: `https://www.googleapis.com/fitness/v1/users/me/dataset:aggregate`,
+//       data: {
+//         aggregateBy: [
+//           {
+//             dataTypeName: "com.google.activity.segment",
+//             dataSourceId:
+//               "derived:com.google.activity.segment:com.google.android.gms:merge_activity_segment",
+//           },
+//         ],
+//         bucketByTime: { durationMillis: 60 * 60 * 1000 * 24 },
+//         startTimeMillis: daysAgo.getTime(),
+//         endTimeMillis: now.getTime(),
+//       },
+//     });
+//     res.send({ raw: result.data });
+//   } catch (error) {
+//     console.log("error: ", error);
+//     res.send({});
+//   }
+// });
 
 app.listen(port, () => console.log("GOOGLE FIT IS LISTENING ON PORT : ", port));
